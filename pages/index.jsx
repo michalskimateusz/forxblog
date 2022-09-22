@@ -1,5 +1,5 @@
-
-import Head from 'next/head'
+import Head from "next/head";
+import { Categories, PostCard, PostWidget } from "../components";
 
 const Home = () => {
   return (
@@ -8,10 +8,11 @@ const Home = () => {
         <title>ForX</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>ForX</h1>
-
+      <PostCard />
+      <PostWidget />
+      <Categories />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
