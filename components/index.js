@@ -7,3 +7,5 @@ export { default as PostDetail } from "./PostDetail";
 export { default as Author } from "./Author";
 export { default as CommentsForm } from "./CommentsForm";
 export { default as Comment } from "./Comment";
+export { default as FeaturedPostCard } from "./FeaturedPostCard";
+export { default as AdjacentPostCard } from "./AdjacentPostCard";
